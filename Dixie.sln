@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43D591EC-6336-4D24-B1B3-42C8A9C66705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D53CAA36-E9F0-4AAE-B09D-BCDEDE588D2B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dixie", "src\Dixie\Dixie.xproj", "{BFF64897-E6B1-4A76-B103-FE2FFD793C8C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dixie.Microsoft", "src\Dixie.Microsoft\Dixie.Microsoft.xproj", "{033C5D33-73B5-4EF9-9227-F0749EEA66C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2B3B3BD7-5ACC-4883-ABFE-B22880366726}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dixie.Tests", "src\Dixie.Tests\Dixie.Tests.xproj", "{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF64897-E6B1-4A76-B103-FE2FFD793C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF64897-E6B1-4A76-B103-FE2FFD793C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF64897-E6B1-4A76-B103-FE2FFD793C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF64897-E6B1-4A76-B103-FE2FFD793C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033C5D33-73B5-4EF9-9227-F0749EEA66C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033C5D33-73B5-4EF9-9227-F0749EEA66C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033C5D33-73B5-4EF9-9227-F0749EEA66C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033C5D33-73B5-4EF9-9227-F0749EEA66C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF64897-E6B1-4A76-B103-FE2FFD793C8C} = {43D591EC-6336-4D24-B1B3-42C8A9C66705}
+		{033C5D33-73B5-4EF9-9227-F0749EEA66C5} = {43D591EC-6336-4D24-B1B3-42C8A9C66705}
+		{97E42F02-728E-4FD5-9FB7-1AB3B5B4AA60} = {2B3B3BD7-5ACC-4883-ABFE-B22880366726}
+	EndGlobalSection
+EndGlobal
