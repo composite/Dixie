@@ -1,9 +1,9 @@
-﻿namespace Dixie.Tests.Dixie.Microsoft.Sample
+﻿namespace Dixie.Tests.Dixie.Microsoft.AttributeServices
 {
     using global::Dixie.Microsoft.Attribute;
 
     [Service]
-    public class SampleService
+    public class SampleAttributeService
     {
         public string Test()
         {
